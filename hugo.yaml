@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://business.tranquiltina.com/"
+title: Project P
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,10 +13,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Project P
+  description: "Business website for Project P"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -24,12 +24,12 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -42,44 +42,20 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
+    favicon: "/assets/favicon/favicon.ico"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
+    apple_touch_icon: "/assets/favicon/apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "Project P"
+    icon: /assets/favicon/apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/ProjectP-Foundation/project-p"
 
   analytics:
     google:
@@ -94,10 +70,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -110,20 +86,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -134,3 +97,86 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+    en:
+      languageName: "English"
+      languageCode: en
+      contentDir: content/en
+      menu:
+        main:
+          - identifier: news
+            name: News
+            url: news/
+            weight: 5
+          - identifier: research
+            name: Research
+            url: research/
+            weight: 10
+          - identifier: company
+            name: Company
+            url: company/
+            weight: 15
+          - identifier: taskflow
+            name: Try TaskFlow
+            url: https://www.tranquiltina.com
+            weight: 20
+      params:
+        homeInfoParams:
+          Title: "Welcome"
+          Content: Streamline your day, boost your way
+        profileMode:
+          enabled: true # needs to be explicitly set
+          title: Welcome
+          subtitle: Streamline your day, boost your way
+          # imageUrl: "<img location>"
+          # imageWidth: 120
+          # imageHeight: 120
+          # imageTitle: my image
+          # buttons:
+          #   - name: Posts
+          #     url: posts
+          #   - name: Tags
+          #     url: tags
+    zh:
+      languageName: "中文"
+      languageCode: zh
+      contentDir: content/zh
+      menu:
+        main:
+          - identifier: news
+            name: 动态
+            url: news/
+            weight: 5
+          - identifier: research
+            name: 研发
+            url: research/
+            weight: 10
+          - identifier: company
+            name: 企业
+            url: company/
+            weight: 15
+          - identifier: taskflow
+            name: 试用 TaskFlow
+            url: https://www.tranquiltina.com
+            weight: 20
+      params:
+        languageAltTitle: 中文
+        homeInfoParams:
+          Title: 欢迎
+          Content: 简化日程，倍增效率
+        profileMode:
+          enabled: true # needs to be explicitly set
+          title: 欢迎
+          subtitle: 简化日程，倍增效率
+          # imageUrl: "<img location>"
+          # imageWidth: 120
+          # imageHeight: 120
+          # imageTitle: my image
+          # buttons:
+          #   - name: Posts
+          #     url: posts
+          #   - name: Tags
+          #     url: tags

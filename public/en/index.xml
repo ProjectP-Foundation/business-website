@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Project P</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on Project P</description>
     <image>
       <title>Project P</title>
@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 16:12:03 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TaskFlow Alpha Test</title>
+      <link>http://localhost:1313/en/news/taskflow_alpha/</link>
+      <pubDate>Wed, 26 Feb 2025 16:12:03 +0200</pubDate>
+      <guid>http://localhost:1313/en/news/taskflow_alpha/</guid>
+      <description>Welcome to TaskFlow: Streamline Your Day, Boost Your Way</description>
+    </item>
   </channel>
 </rss>
