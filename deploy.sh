@@ -4,7 +4,7 @@
 SERVER_USERNAME="ubuntu"
 SERVER_HOST="110.40.152.53"
 HUGO_LOCAL_PATH="./public"
-HUGO_SERVER_PATH="/var/www/business.tranquiltina.com"
+HUGO_SERVER_PATH="/home/ubuntu/project-p/business-website"
 
 # 日志函数
 log() {
