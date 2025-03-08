@@ -1,7 +1,7 @@
 ---
 title: "TaskFlow Alpha Test"
-description: "Welcome to TaskFlow: Streamline Your Day, Boost Your Way"
-summary: "Welcome to TaskFlow: Streamline Your Day, Boost Your Way"
+description: "Welcome to TaskFlow: https://www.tranquiltina.com"
+summary: "Welcome to TaskFlow: https://www.tranquiltina.com"
 date: 2025-02-26T16:12:03+02:00
 lastmod: 2025-02-26T16:12:03+02:00
 draft: false

@@ -111,14 +111,14 @@ languages:
             name: News
             url: news/
             weight: 5
-          - identifier: research
-            name: Research
-            url: research/
-            weight: 10
-          - identifier: company
-            name: Company
-            url: company/
-            weight: 15
+          # - identifier: research
+          #   name: Research
+          #   url: research/
+          #   weight: 10
+          # - identifier: company
+          #   name: Company
+          #   url: company/
+          #   weight: 15
           - identifier: taskflow
             name: Try TaskFlow
             url: https://www.tranquiltina.com
@@ -128,7 +128,7 @@ languages:
           Title: "Welcome"
           Content: Streamline your day, boost your way
         profileMode:
-          enabled: true # needs to be explicitly set
+          enabled: false # needs to be explicitly set
           title: Welcome
           subtitle: Streamline your day, boost your way
           # imageUrl: "<img location>"
@@ -150,14 +150,14 @@ languages:
             name: 动态
             url: news/
             weight: 5
-          - identifier: research
-            name: 研发
-            url: research/
-            weight: 10
-          - identifier: company
-            name: 企业
-            url: company/
-            weight: 15
+          # - identifier: research
+          #   name: 研发
+          #   url: research/
+          #   weight: 10
+          # - identifier: company
+          #   name: 企业
+          #   url: company/
+          #   weight: 15
           - identifier: taskflow
             name: 试用 TaskFlow
             url: https://www.tranquiltina.com
@@ -166,11 +166,13 @@ languages:
         languageAltTitle: 中文
         homeInfoParams:
           Title: 欢迎
-          Content: 简化日程，倍增效率
+          Content: >
+            简化日程，倍增效率
         profileMode:
-          enabled: true # needs to be explicitly set
+          enabled: false # needs to be explicitly set
           title: 欢迎
-          subtitle: 简化日程，倍增效率
+          subtitle: >
+            简化日程，倍增效率
           # imageUrl: "<img location>"
           # imageWidth: 120
           # imageHeight: 120
