@@ -1,3 +1,21 @@
-# Business Website for Project P
+# business-website
 
-Deployed at [https://business.tranquiltina.com](https://business.tranquiltina.com)
+Business website for Project P
+
+Deployed at [business.tranquiltina.com](https://business.tranquiltina.com)
+
+## Development
+
+```bash
+hugo server
+```
+
+## Deployment
+
+On the server, run:
+
+```bash
+cd /business-website
+git pull
+hugo server
+```
