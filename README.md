@@ -1,13 +1,14 @@
 # business-website
 
-Business website for Project P
+Business website for Project P, based on [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 
 Deployed at [business.tranquiltina.com](https://business.tranquiltina.com)
 
-## Development
+## Update
 
 ```bash
-hugo server
+cd themes/PaperMod
+git pull
 ```
 
 ## Deployment
