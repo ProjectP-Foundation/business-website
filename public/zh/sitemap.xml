@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/news/taskflow_alpha/</loc>
+    <loc>https://business.tranquiltina.com/zh/news/taskflow_alpha/</loc>
     <lastmod>2025-02-26T16:12:03+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/news/taskflow_alpha/"
+                href="https://business.tranquiltina.com/en/news/taskflow_alpha/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/news/taskflow_alpha/"
+                href="https://business.tranquiltina.com/zh/news/taskflow_alpha/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/news/</loc>
+    <loc>https://business.tranquiltina.com/zh/news/</loc>
     <lastmod>2025-02-26T16:12:03+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/news/"
+                href="https://business.tranquiltina.com/en/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/news/"
+                href="https://business.tranquiltina.com/zh/news/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/</loc>
+    <loc>https://business.tranquiltina.com/zh/</loc>
     <lastmod>2025-02-26T16:12:03+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://business.tranquiltina.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/"
+                href="https://business.tranquiltina.com/zh/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/categories/</loc>
+    <loc>https://business.tranquiltina.com/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://business.tranquiltina.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
+                href="https://business.tranquiltina.com/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/tags/</loc>
+    <loc>https://business.tranquiltina.com/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://business.tranquiltina.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                href="https://business.tranquiltina.com/zh/tags/"
                 />
   </url>
 </urlset>

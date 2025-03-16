@@ -18,5 +18,5 @@ On the server, run:
 ```bash
 cd /business-website
 git pull
-hugo server
+hugo --minify
 ```
